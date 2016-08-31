@@ -35,6 +35,12 @@ namespace Snake
                 i.Draw();
             }
 
+            HorizontalLine line = new HorizontalLine(5, 10, 8, '+');
+            line.Draw();
+
+            VerticalLine vline = new VerticalLine(5, 10, 15, '$');
+            vline.Draw();
+
             Console.ReadLine(); 
         }
     }
